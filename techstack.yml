@@ -2,7 +2,7 @@ repo_name: jadenblack/stable-diffusion-webui
 report_id: 440d490a8c2292cafe8612070c165744
 version: 0.1
 repo_type: Public
-timestamp: '2024-01-05T08:22:44+00:00'
+timestamp: '2024-02-29T19:02:57+00:00'
 requested_by: AUTOMATIC1111
 provider: github
 branch: master
@@ -176,7 +176,7 @@ tools:
   last_updated_by: Paresh Mathur
   last_updated_on: 2022-09-13 14:19:52.000000000 Z
 - name: Gradio
-  description: 'GUIs for Faster ML Prototyping and Sharing '
+  description: GUIs for Faster ML Prototyping and Sharing
   website_url: https://www.gradio.app/
   license: Apache-2.0
   open_source: true
@@ -277,6 +277,13 @@ tools:
   last_updated_by: Aarni Koskela
   last_updated_on: 2023-05-28 12:36:43.000000000 Z
   vulnerabilities:
+  - name: Untrusted search path under some conditions on Windows allows arbitrary
+      code execution
+    cve_id: CVE-2024-22190
+    cve_url: https://github.com/advisories/GHSA-2mqj-m65w-jghx
+    detected_date: Jan 11
+    severity: high
+    first_patched: 3.1.41
   - name: Blind local file inclusion
     cve_id: CVE-2023-41040
     cve_url: https://github.com/advisories/GHSA-cwvm-v4w8-q58c
